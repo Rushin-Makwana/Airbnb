@@ -82,7 +82,7 @@ color: white;
 .bg{
     
        /* background-image: url(8aa32150-e831-40aa-98f5-b743b44c6b27.webp); */
-    position: absolute;
+    position: absolute !important;
     margin-top: 522px;
     background-repeat: no-repeat;
     margin-left: 2%;
