@@ -109,7 +109,12 @@ color: white;
     color: black;
     font-size: 30px;
   }
-  
+  #storeLocation{
+      color:chocolate;
+      font-size: h4;
+    float: right;
+    margin-right: 10px;
+  }
   .mydark  {
       background-color: white;
       color:blue;
