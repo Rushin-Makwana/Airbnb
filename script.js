@@ -9,3 +9,20 @@ function changeMode() {
     //   element.className = "mydark";
     // }
   }
+document.body.onload =  userLocation ();
+
+var showLocation = document.getElementById("storeLocation");
+function userLocation () {
+  if(navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(showPosition);
+  } else {
+    showLocation.innerHTML = "Your browser does not support this feature.";
+  }
+}
+
+function showPosition (data) {
+  // showLocation.innerHTML = "Latitude: " + position.coords.latitude +
+  // "<br> Longitude: " + position.coords.longitude;
+  console.log(data);
+
+}
