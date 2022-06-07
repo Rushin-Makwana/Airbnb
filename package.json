@@ -1,0 +1,22 @@
+{
+  "name": "air",
+  "version": "1.0.0",
+  "description": "This is about routes and Rest APIs",
+  "main": "script.js",
+  "scripts": {
+    "dev": "nodemon routes.js" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://Rushin-Makwana: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@github.com/Rushin-Makwana/Airbnb.git"
+  },
+  "author": "Rushin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rushin-Makwana/Airbnb/issues"
+  },
+  "homepage": "https://github.com/Rushin-Makwana/Airbnb#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
