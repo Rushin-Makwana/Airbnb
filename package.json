@@ -4,7 +4,8 @@
   "description": "This is about routes and Rest APIs",
   "main": "script.js",
   "scripts": {
-    "dev": "nodemon routes.js" 
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,10 @@
   },
   "homepage": "https://github.com/Rushin-Makwana/Airbnb#readme",
   "dependencies": {
-    "express": "^4.18.1"
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongodb": "^4.7.0"
   }
 }
