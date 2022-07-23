@@ -4,61 +4,97 @@
 http://localhost:6780/ -->
 
 # Getting islands(Get)
-http://localhost:9870/
+http://localhost:8000/
 
 # Getting Beaches (Get)
-http://localhost:9870/beach
+http://localhost:8000/beach
 
 # Getting Pools (Get)
-http://localhost:6780/pools
+http://localhost:8000/pools
 # Filter
-
+http://localhost:8000/pool?1&gt=2000&lt=20000
+http://localhost:8000/beach?1&gt=2000&lt=4000
+http://localhost:8000/island?1&gt=200&lt=4000
+# Sort (Ascending and Descending)
+http://localhost:8000/pool?1&gt=2000&lt=20000 (Default)
+http://localhost:8000/pool?1&gt=2000&lt=20000&sort=-1 
 
 # Become a Host (Get)
 http://localhost:6780/becomehost
 
-# Search
-
-# Getting specific island details (Get)
-http://localhost:9870/?islandid=1
-
-# Getting specific beaches details (Get)
-http://localhost:6780/beach?beachid=1
-
-# Getting specific Pools details (Get)
-http://localhost:6780/city?poolid=1 
-
-
-
 
 //page 2
-# Booking a place (Get)
-http://localhost:6780/booking?id=
 
-# Selected place data(island) (Get)
-http://localhost:6780/island?island_id=
+# Getting specific island details (Get)
+http://localhost:8000?islandid=1
 
-# Selected place data(beach)(Get)
-http://localhost:6780/beach?beach_id=
+# Getting specific beaches details (Get)
+http://localhost:8000/beach?beachid=1
 
-# Selected place data(pools)(Get)
-http://localhost:6780/pools?pools_id=
+# Getting specific Pools details (Get)
+http://localhost:8000/pool?poolid=1 
 
 
 //page 3
-
-
 # Check Out (Post)
-http://localhost:6780/booking?id=
+http://localhost:8000/reservestays
+{
+    "name" : "Rushi",
+    "email" : "rushi@gmail.com",
+    "phone" : "980",
+    "location_name" : "Calanguhante, Ireland",
+    "beach_id": "814",
+    "country_id" : "18",
+     "price" : "98000"
+}
+
 
 
 //page 4
 
-# List of place booked (Get)
-http://localhost:6780/bookedplace
+# Place Booked on basis of _id(Get)
+http://localhost:8000/bookings?id=
+
+# Place Booked on basis of email(Get)
+http://localhost:8000/bookings?email=rushi@gmail.com
+
+
+//page 5
+
 
 # Updated data (Put)
 http://localhost:6780/upd
 
 # delete data (delete)
-http://localhost:6780/deletebooking
+http://localhost:8000/bookings/62dbf8baee43e0cea3235ba1
+
+{"beach_id": "8" ,
+            "country_id" :"1",
+             "location":"Raigad, India",
+             "price" : "24193"}
+
+
+
+
+<!-- [
+    {
+        "_id": "62dbf7feee43e0cea3235ba0",
+        "name": "Rushi",
+        "email": "rushi@gmail.com",
+        "phone": "123",
+        "location_name": "Cabin in Big River, Canada",
+        "beach_id": "15",
+        "country_id": "14",
+        "price": "86000"
+    },
+    {
+        "_id": "62dbf8baee43e0cea3235ba1",
+        "name": "Dipak",
+        "email": "dipak@gmail.com",
+        "phone": "980",
+        "location_name": "Calanguhante, Ireland",
+        "beach_id": "814",
+        "country_id": "18",
+        "price": "98000"
+    }
+] -->
