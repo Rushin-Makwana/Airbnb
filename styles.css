@@ -1,0 +1,125 @@
+.header{
+    height: 550px;
+    width:100%;
+   
+}
+a{
+    text-decoration: none;
+}
+.logoColour{
+    color: white;
+    
+}
+.Airbnblogo{
+    height: 50px;
+    width: 45x;
+    margin-top: 1%;
+    margin-left:4%;
+    border:0
+}
+.Places{
+    margin-left: 21%;
+    margin-left: 21%;
+    color: white;
+    font-size: 17px;
+    
+}
+.Exp{
+    margin-left: 4%;
+    color: white;
+    font-size: 17px;
+}
+
+.OExp{
+    margin-left: 3%;
+    color:white;
+    font-size: 17px;
+}
+.Host{
+    margin-left: 8%;
+    color:white;
+    font-size: 17px;
+}
+.globe{
+    color: white;
+    margin-left: 1%;
+}
+.person{
+    margin-left: 2%;
+    margin-top: 1%;
+    height: 20px;
+
+}
+.refugee{
+    height: 370px;
+    width: 1200;
+    margin-left: 6%;
+    margin-top: 6%;
+    border-radius: 10px;
+    background-color: ff385c;
+    
+}
+.refugee>span{
+font-size: 30px;
+font-weight: bolder;
+text-align: center;
+padding-left: 273px;
+padding-top: 119px !important;
+position: absolute;
+color: white;
+}
+.buttonStyle{
+
+text-align: center;
+padding-left: 530px;
+padding-top: 199px !important;
+position: absolute !important;
+color: white;
+}
+.buttonStyle>span{
+    color:white !important;
+}
+.bg{
+    
+       /* background-image: url(8aa32150-e831-40aa-98f5-b743b44c6b27.webp); */
+    position: absolute !important;
+    margin-top: 522px;
+    background-repeat: no-repeat;
+    margin-left: 2%;
+    
+}
+.centered {
+    position: absolute;
+    top: 67%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+    font-family: Poppins;
+    font-weight: bold;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+  }
+  #flex{
+    position: absolute;
+    top: -64%;
+    left: 104%;
+    transform: translate(-50%, -50%);
+    font-family: Poppins;
+    font-weight: bold;
+    color: black;
+    font-size: 30px;
+  }
+  #storeLocation{
+      color:chocolate;
+      font-size: h4;
+    float: right;
+    margin-right: 10px;
+  }
+  .mydark  {
+      background-color: white;
+      color:blue;
+  }
+  .home__section {
+    display: flex;
+    padding: 30px;
+  }

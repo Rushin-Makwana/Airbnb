@@ -1,0 +1,25 @@
+{
+  "name": "paynow",
+  "version": "1.0.0",
+  "main": "index.js",
+  "start": "node index.js",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "rushin",
+  "license": "ISC",
+  "homepage": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "description": ""
+}
