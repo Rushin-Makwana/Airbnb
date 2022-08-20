@@ -5,7 +5,9 @@ name: String,
 email: String,
 password: String,
 phone: String,
-role: String
 })
-mongoose.model('users', userSchema);
+mongoose.model('users', userSchema)({
+    fields:userSchema.Type
+   }, { collection: 'bookings'});
+
 module.exports = mongoose.model('users')
